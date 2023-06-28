@@ -144,15 +144,22 @@ table {
 }
 
 .card-group {
-    width: 960px;
+    width: 100%;
     margin: 0 auto;
     padding-right: 30px;
     padding-left: 30px;
     background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .row {
-    background-color: #293f50;
+    background-color: #5C469C;
+}
+
+.cols-xs-12 a { 
+    margin-bottom: 40px;
 }
 
 #who {
@@ -163,19 +170,20 @@ table {
 }
 
 .logo h1 {
+    float: right;
     font-size: 38px;
-    color: orange !important;
+    color: #5C469C !important;
 }
 
 body {
-    background: #293f50 ;
+    background: #5C469C;
     color: #fff;
 }
 
 h2 {
     font-size: 36px;
     font-family: 'Montserrat Alternates', sans-serif;
-    color: orange;
+    color: #D4ADFC;
     line-height: 44px;
     text-align: center;
 }
@@ -190,15 +198,34 @@ h5, p {
     padding-top: 20px;
 }
 
+.card-section {
+    margin: 0 auto;
+    width: 500px;
+    margin-bottom: 50px;
+}
+
+.card-img-top {
+    height: 100%;
+    width: 100%;
+}
+
+
+.card {
+    background-color: #5C469C;
+    border: none;
+}
+
 .container div {
     margin-bottom: 40px;
     float: left;
     width: 33.3%;
+    background-color: black;
 }
 
 div img {
     display: block;
     max-width: 80%;
+    margin: 0
 }
 
 span {
@@ -237,13 +264,24 @@ nav {
     text-align: center;
 }
 
+.col-md-9 {
+    text-align: left;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+}
+
 .primary-nav {
-    font-size: 14px;
+    font-size: 19px;
     font-weight: 400;
-    text-align: center;
+    text-align: right;
     background: #395870;
     padding: 20px;
-    background: linear-gradient(#49708f, #293f50)
+    background: linear-gradient(#D4ADFC, #5C469C)
+}
+
+#logo {
+    color: #D4ADFC;
+    font-family: 'Orbitron', sans-serif;
 }
 
 a {
@@ -259,10 +297,12 @@ a {
 }
 
 .btn-secondary {
-    border: 1px solid orange;
+    border: 1px solid #D4ADFC;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 .btn-secondary:hover {
-    background: orange;
+    background: #D4ADFC;
 }
 
 footer {
@@ -275,4 +315,9 @@ footer nav {
 
 footer small {
     float: right;
+}
+
+.cols-xs-12 h2 {
+    font-family: 'Press Start 2P', cursive;
+    margin-bottom: 30px;
 }
