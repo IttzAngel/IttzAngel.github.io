@@ -1,0 +1,278 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+    v2.0 | 20110126
+    License: none (public domain)
+    */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.card-group {
+    width: 960px;
+    margin: 0 auto;
+    padding-right: 30px;
+    padding-left: 30px;
+    background: none;
+}
+
+.row {
+    background-color: #293f50;
+}
+
+#who {
+    clear: both;
+    float: left;
+    padding: 1px 0 22px 0;
+    margin: 1px 0 22px 0;
+}
+
+.logo h1 {
+    font-size: 38px;
+    color: orange !important;
+}
+
+body {
+    background: #293f50 ;
+    color: #fff;
+}
+
+h2 {
+    font-size: 36px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: orange;
+    line-height: 44px;
+    text-align: center;
+}
+
+h5, p {
+    margin-bottom: 22px;
+}
+
+.hero p {
+    text-align: center;
+    font-size: 24px;
+    padding-top: 20px;
+}
+
+.container div {
+    margin-bottom: 40px;
+    float: left;
+    width: 33.3%;
+}
+
+div img {
+    display: block;
+    max-width: 80%;
+}
+
+span {
+    border: 2px solid red;
+}
+
+.container-fluid{
+    padding: 0 !important;
+}
+
+.logo {
+    float: left;
+    padding: 30px 0 22px 0;
+}
+
+
+.hero-container {
+    text-align: center;
+}
+
+.hero-container p {
+    margin-top: 20px;
+}
+
+.btn {
+    margin-bottom: 5px;
+}
+
+.hero {
+    padding: 22px 80px 36px 80px;
+    text-align: center;
+}
+
+nav {
+    clear: both;
+    text-align: center;
+}
+
+.primary-nav {
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    background: #395870;
+    padding: 20px;
+    background: linear-gradient(#49708f, #293f50)
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.btn {
+    margin-top: 20px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.btn-secondary {
+    border: 1px solid orange;
+}
+.btn-secondary:hover {
+    background: orange;
+}
+
+footer {
+    clear: both;
+}
+
+footer nav {
+    float: left;
+}
+
+footer small {
+    float: right;
+}
