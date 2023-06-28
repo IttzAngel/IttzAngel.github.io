@@ -321,3 +321,7 @@ footer small {
     font-family: 'Press Start 2P', cursive;
     margin-bottom: 30px;
 }
+
+.col-xs-12:hover {
+    color: black;
+}
