@@ -247,6 +247,10 @@ span {
     padding: 30px 0 22px 0;
 }
 
+.primary-nav a:hover {
+    color: #5C469C;
+  }
+
 
 .hero-container {
     text-align: center;
