@@ -162,6 +162,11 @@ table {
     margin-bottom: 40px;
 }
 
+.cols-xs-12 p {
+    font-size: 30px !important; 
+    font-family: 'Bebas Neue', sans-serif;
+}
+
 #who {
     clear: both;
     float: left;
@@ -252,7 +257,7 @@ span {
 }
 
 .btn {
-    margin-bottom: 5px;
+    margin-bottom: 20px;
 }
 
 .hero {
@@ -322,6 +327,7 @@ footer small {
 .cols-xs-12 h2 {
     font-family: 'Press Start 2P', cursive;
     margin-bottom: 30px;
+    font-size: 50px;
 }
 
 .col-xs-12:hover {
