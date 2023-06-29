@@ -358,3 +358,7 @@ footer small {
     flex: 1 0 200px;
     margin: 10px;
 }
+
+.video {
+    align-content: center;
+}
