@@ -163,7 +163,7 @@ table {
 }
 
 .cols-xs-12 p {
-    font-size: 30px !important; 
+    font-size: 30px !important;
     font-family: 'Bebas Neue', sans-serif;
 }
 
@@ -249,7 +249,7 @@ span {
 
 .primary-nav a:hover {
     color: #5C469C;
-  }
+}
 
 
 .hero-container {
@@ -407,4 +407,128 @@ footer small {
 .video {
     max-width: 100%;
     height: 10;
+    margin-bottom: 50px;
+}
+
+.table {
+    align-content: center;
+    width: 30%;
+    border: #5C469C;
+    background-color: #5C469C;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #5C469C;
+    border-left: 1px solid #5C469C;
+    background-color: #D4ADFC;
+}
+
+.table th {
+    background-color: #D4ADFC;
+    font-weight: bold;
+}
+
+.game-form {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.submit-form {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: #D4ADFC;
+    border: 1px solid #D4ADFC;
+    background-color: #5C469C;
+    padding: 5px 10px;
+    font-size: 20px;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.submit-form:hover {
+    background-color: #D4ADFC;
+}
+
+/*@keyframes fade-in {
+    from {top: 0px;}
+    to {top: 200px;}
+}
+
+.cols-xs-12 h2 {
+    animation-name: fade-in;
+    animation-duration: 10s;
+} */
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+        /* Start with 0% opacity */
+        transform: translateY(-20px);
+        /* Optional: Start position or other transformations */
+    }
+
+    100% {
+        opacity: 1;
+        /* End with 100% opacity */
+        transform: translateY(0);
+        /* Optional: End position or other transformations */
+    }
+}
+
+@keyframes rainbow {
+    0% {
+        background-color: red;
+    }
+
+    20% {
+        background-color: orange;
+    }
+
+    40% {
+        background-color: yellow;
+    }
+
+    60% {
+        background-color: green;
+    }
+
+    80% {
+        background-color: blue;
+    }
+
+    100% {
+        background-color: #5C469C;
+    }
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.5);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.pulse {
+    animation-name: pulse;
+    animation-duration: 1s;
+    /* Duration of the animation */
+    animation-fill-mode: forwards;
+    /* Maintain the end state after animation */
+    /* Optional animation properties */
+    animation-delay: 0s;
+    /* Delay before the animation starts */
+    animation-timing-function: ease-out;
+    /* Timing function for the animation */
 }
