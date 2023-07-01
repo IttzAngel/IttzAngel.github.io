@@ -553,3 +553,7 @@ footer small {
         height: auto;
     }
 }
+
+.primary-nav {
+    font-size: 17px;
+}
