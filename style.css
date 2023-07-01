@@ -542,7 +542,7 @@ footer small {
 
 @media (max-width: 576px) {
     .primary-nav {
-        max-width: 100%;
+        max-width: 30%;
         height: auto;
     }
 }
