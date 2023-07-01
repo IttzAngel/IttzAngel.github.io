@@ -532,3 +532,17 @@ footer small {
     animation-timing-function: ease-out;
     /* Timing function for the animation */
 }
+
+@media (max-width: 767px) {
+    .primary-nav {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 576px) {
+    .primary-nav {
+        max-width: 100%;
+        height: auto;
+    }
+}
