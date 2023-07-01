@@ -551,5 +551,7 @@ footer small {
     .primary-nav {
         max-width: 100%;
         height: auto;
+        font-size: 15px;
+        text-align: center;
     }
 }
