@@ -542,18 +542,14 @@ footer small {
 
 @media (max-width: 576px) {
     .primary-nav {
-        max-width: 30%;
+        max-width: 100%;
         height: auto;
     }
 }
 
 @media (max-width: 1500px) {
     .primary-nav {
-        max-width: 30%;
+        max-width: 100%;
         height: auto;
     }
-}
-
-.primary-nav {
-    font-size: 17px;
 }
